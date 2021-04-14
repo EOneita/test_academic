@@ -38,6 +38,6 @@ superuser: true
 title: Elizabeth Oneita Davis
 ---
 
-I'm **Elizabeth Oneita Davis**, leader of the Asian Landscapes Hub at the *San Diego Zoo Wildlife Alliance (SDZWA)* and a Postdoctoral Associate in Community Engagement. I guide SDZWA's collaborative, multi-disciplinary Asian conservation work, and in my role as a Postdoctoral Associate, I conduct research to inform behavior change campaigns to reduce consumer demand for wildlife in Southeast Asia.
+I'm the leader of the Asian Landscapes Hub at the *San Diego Zoo Wildlife Alliance (SDZWA)* and a Postdoctoral Associate in Community Engagement. I guide SDZWA's collaborative, multi-disciplinary Asian conservation work, and in my role as a Postdoctoral Associate, I conduct research to inform behavior change campaigns to reduce consumer demand for wildlife in Southeast Asia.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
