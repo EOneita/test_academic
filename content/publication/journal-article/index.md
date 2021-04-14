@@ -1,52 +1,34 @@
 ---
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed
-  ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis
-  sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida
-  egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id
-  dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.
-  Vestibulum sit amet erat at nulla eleifend gravida.
-author_notes:
-- Equal contribution
-- Equal contribution
+abstract: Conservationists measuring noncompliance with measures limiting the exploitation of natural resources often ask sensitive questions. However, respondents may distort their answers due to the risk of sanctions, taboos or social norms. Specialized Questioning Techniques (SQTs) can encourage honest answering through protecting respondent’s privacy by design. This study provides a complete overview of the main SQTs, as well as their most recent advances. We performed a scoping review of existing SQTs, starting with those covered in Nuno and St. John (2015). We covered techniques which advanced over the last few years (n = 14), and included techniques that have never been explained in a conservation context before (n = 2), or that were invented after 2015 (n = 4), like the parallel model, the pair method, the list method and the person count technique. We explained each technique with real, or hypothetical, examples and also discussed advantages and limitations, emphasizing the need to understand the context where they are applied and to imagine the potential repercussions of SQTs, to protect both respondents and their communities. SQTs developed impressively over the last few years, and many different techniques are available to elicit sensitive behaviors with implications for conservation. This research offers a summary to conservationists and practitioners who want to approach this topic and integrate them in their work.
 authors:
+- Jacopo Cerri
 - admin
-- Robert Ford
-date: "2015-09-01T00:00:00Z"
+- Diogo Verissimo
+- Jenny Anne Glikman
+date: "2021-04-01T00:00:00Z"
 doi: ""
-featured: false
+featured: true
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: ''
   focal_point: ""
   preview_only: false
 projects: []
-publication: '*Journal of Source Themes, 1*(1)'
+publication: '*Biological Conservation, 257*(2021)'
 publication_short: ""
 publication_types:
 - "2"
-publishDate: "2017-01-01T00:00:00Z"
-slides: example
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
-  ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+publishDate: "2021-04-01T00:00:00Z"
+slides: none
+summary: A scoping review of novel specialized questioning techniques, and some not covered in Nuno and St. John (2015).
 tags:
 - Source Themes
-title: An example journal article
+title: Specialized questioning techniques and their use in conservation
 url_code: ""
 url_dataset: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
+url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S0006320721001415?via%3Dihub
 url_poster: ""
 url_project: ""
 url_slides: ""
 url_source: ""
 url_video: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).

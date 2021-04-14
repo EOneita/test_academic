@@ -1,33 +1,135 @@
 ---
-title: Hi Hugo
-author: R package build
-date: '2021-04-12'
-slug: []
-categories: []
-tags: []
-subtitle: ''
-summary: ''
-authors: []
-lastmod: '2021-04-12T14:04:32+08:00'
-featured: no
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: no
-projects: []
+title: "A Collection of Useful Sites and People in the R Universe"
+description: |
+  R can be confusing and scary, but here are some resources that I hope will be helpful.
+categories:
+  - spatial analysis
+  - rstats
+  - data visualization
+  - xaringan
+  - r help
+  - vaporwave
+author:
+  - name: Elizabeth Oneita Davis
+date: '2020-06-25'
+preview: none
+output:
+  blogdown::html_page:
+    toc: true
+    toc_depth: 1
+    self_contained: false
+    nature: 
+      beforeInit: "https://platform.twitter.com/widgets.js"
 ---
 
 
-```r
-summary(Orange)
-```
 
-```
-##  Tree       age         circumference  
-##  3:7   Min.   : 118.0   Min.   : 30.0  
-##  1:7   1st Qu.: 484.0   1st Qu.: 65.5  
-##  5:7   Median :1004.0   Median :115.0  
-##  2:7   Mean   : 922.1   Mean   :115.9  
-##  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  
-##        Max.   :1582.0   Max.   :214.0
-```
+>The most important resources on this page are **"How do I read a help file?"** and  **"decoding error messages in R"**. Trust me! Understanding these will change your life for the better.
+
+>Các tài nguyên quan trọng nhất trên trang này là **"Làm cách nào để đọc tệp trợ giúp?"** và **"giải mã các thông báo lỗi trong R"**. Tin tôi đi! Hiểu những điều này sẽ thay đổi cuộc sống của bạn tốt hơn.
+
+Before you get started going through these materials, **read this**:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Added an <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> pep talk to my syllabus to assuage fears <a href="https://t.co/EciFlMuUza">pic.twitter.com/EciFlMuUza</a></p>&mdash; Andrew Heiss, PhD (@andrewheiss) <a href="https://twitter.com/andrewheiss/status/1165310391750189063?ref_src=twsrc%5Etfw">August 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+This is so important to know. R is challenging and frustrating for EVERYONE, and yet it is also so rewarding as well. Get used to making mistakes and figuring things out!
+
+## Hướng Dẫn Tiếng Việt Về R 🇻🇳
+
+[Phân tích số liệu và biểu đồ bằng](https://cran.r-project.org/doc/contrib/Intro_to_R_Vietnamese.pdf). Đây là nguồn tài nguyên tuyệt vời! 
+
+## Getting started with R
+I recently discovered this adorable giraffe themed [R course](https://tinystats.github.io/teacups-giraffes-and-statistics) 🦒, which I would recommend any new user to R start off with. It's an aesthetically pleasing primer and best of all, it's free!
+
+## People 
+**Alison Hill** wrote the [blog](https://alison.rbind.io/post/new-year-new-blogdown/) I used to make this site (after literal years of me flailing in pain and tears, never having exactly what I wanted/needed!). If you want to make your own, I urge you to immediately go to her blog, bookmark it, and read it every night before bed.
+
+
+**[Danielle Navarro](https://twitter.com/djnavarro)** is an #rstats guru who is also very humble, funny, and helpful. She blogs about her experiences (and often frustrations!) with R, which shows that learning R is a constant process. Plus, she has been updating her very popular book **[Learning Statistics with R](https://learningstatisticswithr.com/)**, which has been invaluable for R users everywhere.
+
+![](partyr.gif)
+
+**Maëlle Salmon** has an extensive [blog](https://masalmon.eu/) where she provides helpful tips and tricks and posts about interesting projects she is doing. Like Danielle, she is really active on [Twitter](https://twitter.com/ma_salmon). 
+
+**Mara Averick** is another great person to follow on [Twitter](https://twitter.com/dataandme). She is renowned for posting tips and tricks to help with using R (and she uses A LOT of emojis 🥑💃💁).[^footnote1]
+
+And of course, [**Hadley Wickham**](https://twitter.com/hadleywickham) is the man behind much of R's syntax, including the cornerstone of data visualization, `ggplot2`. His book [*R for Data Science*](https://r4ds.had.co.nz/) is a staple of R learning.[^footnote2] 
+
+## "How do I...?"
+
+[Do *anything*?](https://smach.github.io/R4JournalismBook/HowDoI.html) This is a pretty random assortment of useful commands. I would recommend trawling through it every so often and noting the commands you think might be useful for you in the future. 
+
+[Read an R Help Page?](https://socviz.co/appendix.html#a-little-more-about-r). This is **essential**.
+
+[Read an R error message?](http://rex-analytics.com/decoding-error-messages-r/) And so is **this**.
+&nbsp;
+
+## Asking for help
+
+For general questions, start [here](https://masalmon.eu/2018/07/22/wheretogethelp/). Maëlle Salmon's guide to asking for help in R is a great starting point for figuring out *how* to ask for help. 
+
+Those of you who identify as female 👩 can always reach out to [R-Ladies](https://rladies.org/) for help and support. R Ladies was founded to provide support and encourage positivity in the R community. They have been a huge success in encouraging R as a language of **diversity** and **inclusivity**, in a world where so many programming languages are dominated by men!
+
+[Stack Overflow](https://stackoverflow.com/) is the go-to site for general questions asked by individuals of all genders 👨👩. But *beware*: it is notorious for being highly technical and for facilitating bullying. Nonetheless, it is a fantastic resource.
+&nbsp;
+
+## Data Carpentry
+
+This [workshop](http://home.cc.umanitoba.ca/~gersteia/MBIO7040/05-dplyr.html) by **Aleeza Gerstein** on data carpentry with `dplyr` is a great guide to beginning data carpentry.[^footnote3]
+
+## Data Visualization
+
+[**Claus Wilke**](https://twitter.com/ClausWilke)'s [*Fundamentals of Data Visualization*](https://serialmentor.com/dataviz/) was recently published, and should be essential reading for any R user embarking on data analysis (i.e., everyone!).
+
+
+**Kieran Healy** is another big name in data visualization, and his comprehensive [guide](https://socviz.co/) covers EVERYTHING. It's a little "higher level" compared to Claus's book, so start with *Fundamentals of Data Visualization* first.
+
+If you're reading this, you'll hopefully be familiar with `ggplot2`. What you may not be as familiar with are the steps it takes to build a truly beautiful and informative ggplot. Luckily, **Cédric Scherer** has a [guide](https://cedricscherer.netlify.com/2019/05/17/the-evolution-of-a-ggplot-ep.-1/).
+
+The BBC have a great [guide](https://github.com/bbc/bbplot) to creating BBC publication-worthy visualization with `ggplot2`.
+
+A collection of themes that will make your plots look visually appealing can be found [here](https://rfortherestofus.com/2019/08/themes-to-improve-your-ggplot-figures/). 
+
+Are your plots looking sad and boring? Here is a [guide](https://alison.netlify.com/rlm-sad-plot-better/#1) that will help you make them better.
+
+## Spatial Analysis
+
+[**Katie Jolly**](https://twitter.com/katiejolly6) is a spatial analyst R user, and she has a step by step [guide][(https://www.katiejolly.io/rladies-spatial/) to visualizing quantities in an area. Her website has other spatial data workings, all with code!
+
+This is a really cool [way](https://cartographicperspectives.org/index.php/journal/article/view/1536/1726) to visualize cartographic lines, although I'm not sure how useful it is.
+
+To make truly expert quality maps, there is no better resource than **Timo Grossenbacher's** [post](https://timogrossenbacher.ch/2019/04/bivariate-maps-with-ggplot2-and-sf/). I still haven't managed to make a map that looks this good in `ggplot2`, but I'm going to keep trying until I do!
+
+## Developing your skills
+
+The R community is constantly growing and evolving 🌻. I used to find it daunting to keep up with everything, but [R-weekly](https://rweekly.org/) makes it easy to do just that! I recommend making it part of your Monday housekeeping to check it out.
+
+[Yihui Xie](https://yihui.name/en/) 🇨🇳 is a genius and one of the key thinkers behind much of "advanced R", such as `rmarkdown` and `xaringan`. Keep an eye on what he's up to, because his work is an indicator of the direction R is going in. And read his guides! He is one of the best R gurus for explaining advanced concepts thoroughly and clearly.
+
+**Emily Riederer** wrote a highly influential blog [post](https://emilyriederer.netlify.com/post/rmarkdown-driven-development/) on using R markdown to create a better workflow and reproducible code. This will be a bit advanced for new users, but is also *very much* worth reading closely as you become more comfortable with R. I wish I had read something like this before I picked up a lot of bad habits!!
+
+## Package development
+As you get more comfortable with R and R markdown, it is beneficial to learn, and/or become comfortable with, package development. This ensures *reproducibility* and can make your life a lot easier if you find yourself writing the same functions (or analyses!) over and over. The premier post that users galore have turned to is **Hilary Parker**'s ["Writing an R package from scratch"](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/). Also check out **Maëlle Salmon**'s [post](https://masalmon.eu/2017/12/11/goodrpackages/), which contains helpful tips around the development of R packages.
+
+## Reporting your results
+Although I think it's important to know how to report your statistical analyses yourself to ensure that you fully understand what you did, [`report`](https://github.com/easystats/report) is a dream come true for explaining your results in a clear and standardized way. Nonetheless, **use this tool *only* when you are confident in your understanding of the analysis you are doing**.
+
+## Speaking of `xaringan`...
+
+Building slides for presentations in R is rewarding and perhaps most importantly, it's EASY! **Yihui Xie**'s guide to `xaringan` can be found [here](https://slides.yihui.name/xaringan/).
+
+`xaringan` doesn't come with too many themes out of the box, but [this](https://github.com/gadenbuie/xaringanthemer) R package by **Garrick Aden-Buie** provides some slick options.
+
+I also just discovered this great [presentation](http://arm.rbind.io/slides/xaringan#1) by **Alison Hill** where she gives tips on creating beautiful slides. I fully recommend working through her presentation.
+
+## Fun stuff
+
+![](vaporwave.jpg)
+
+Make your graphs look kewl with the [**vapoRwave**](https://github.com/moldach/vapoRwave) package.
+
+[^footnote1]: All of the resources on this page are absolutely FREE! Another reason to ❤️ R.
+
+[^footnote2]: In general, I would recommend getting Twitter, if you don't have it already, and following the people named here as well as others in the R community (#rstats to see what everyone is tweeting about!).
+
+[^footnote3]: "Data carpentry" is the craft of manipulating messy data and making it suitable for data analysis.
